@@ -39,6 +39,7 @@ body {
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
     text-align: center;
+    font-size: 14px; /* Reduced font size */
 }
 
 .calendar-day {
