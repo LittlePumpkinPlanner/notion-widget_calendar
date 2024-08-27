@@ -62,5 +62,5 @@ body {
 }
 
 .calendar-date.other-month {
-    color: grey; /* Light grey font color for other months */
+    color: #a6acaf; /* Light grey font color for other months */
 }
