@@ -9,37 +9,32 @@ body {
 }
 
 #calendar-widget {
-    width: 300px;
-    border-radius: 15px;
+    width: 200px; /* Reduce the width to make the widget smaller */
+    border-radius: 10px; /* Slightly reduce the border radius */
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Adjust shadow for a smaller widget */
 }
 
 #calendar-header {
     background-color: #0000ff; /* Blue background */
     color: white; /* White font color */
     text-align: center;
-    padding: 10px;
+    padding: 8px; /* Reduce padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
-}
-
-#calendar-header span {
-    cursor: pointer;
-    user-select: none;
+    font-size: 14px; /* Smaller font size */
 }
 
 #calendar-body {
     background-color: #add8e6; /* Light blue background */
     color: black; /* Black font color */
-    padding: 10px;
+    padding: 8px; /* Reduce padding */
     display: grid;
     grid-template-columns: repeat(7, 1fr); /* Ensure 7 columns for days and dates */
-    gap: 5px;
+    gap: 3px; /* Reduce gap between dates */
     text-align: center;
-    font-size: 14px; /* Reduced font size */
+    font-size: 12px; /* Smaller font size */
 }
 
 .calendar-day {
@@ -51,8 +46,8 @@ body {
 }
 
 .calendar-date {
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px; /* Reduce padding for each date */
+    border-radius: 5px; /* Slightly reduce the border radius */
     cursor: pointer;
 }
 
