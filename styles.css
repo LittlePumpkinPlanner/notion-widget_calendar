@@ -36,7 +36,7 @@ body {
     color: black; /* Black font color */
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 1fr); /* Ensure 7 columns for days and dates */
     gap: 5px;
     text-align: center;
     font-size: 14px; /* Reduced font size */
@@ -44,6 +44,10 @@ body {
 
 .calendar-day {
     font-weight: bold;
+}
+
+#calendar-dates {
+    display: contents; /* Allows dates to fit within the existing grid layout */
 }
 
 .calendar-date {
